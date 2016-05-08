@@ -1,0 +1,133 @@
+.center {
+    margin: auto;
+    text-align:center;
+    /* border:  */
+}
+
+.bigger_text{
+	text-align:center;
+	font-size:16px;
+}
+
+.questionnaire{
+	margin-bot:15px;
+	text-align:left;
+	
+}
+
+.bot_questionnaire{
+	max-width: 100px; 
+    max-height: 100px;
+	text-align: center;
+	
+}
+
+.confirm_button{
+	position:relative;
+	margin-top:10px;
+	left:35%;
+	padding: 5px 5px;
+	height : 50px;
+	width: 140px;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;	
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+	text-align:center;
+	font-size:60px;
+}
+
+
+#intencyjny{
+	margin-top:40px;
+	margin-bottom:20px;		
+}
+
+#dummyframe{
+
+	border:0px;
+}
+
+#username{
+margin-top:10px;
+margin-bottom:20px;
+	
+}
+
+#bot_avatar, #bot_window{
+	float: right;
+    max-width: 150px; 
+    max-height: 150px;
+	text-align: center;
+}
+
+#bot_name{
+	margin-bottom:10px
+	
+}
+
+#bot_window{
+/*		border: 3px solid #73AD21; */
+	padding-bottom:100px;
+	padding-right:20px;
+}
+
+#content{
+  text-align:left;
+  top:50%;  
+  left:40%;  
+  max-width: 500px; 	
+  max-height: 200px;
+  font-size:24px;	
+}
+
+#rules_confirmation_text, #user_confirmation_text{
+	color:RED;
+	margin: 10px 0 0 0;
+}
+
+#question {
+	text-align:Left;	
+}
+
+#quick_rules{
+		margin-top:100px;
+		font-size:10px;	
+		position: relative;
+		top:50%;
+}
+
+#score{
+  position:relative;
+  text-align:center;
+  margin-top:20px;
+  max-width: 600px; 	
+  max-height: 200px;
+  font-size:24px;	
+}
+
+textarea{
+	margin-left: 15px;
+	width:480px;
+	height: 100px;
+	max-width: 600px;
+	max-height: 200px;
+}
+
+#pk {
+position:fixed;
+bottom:0;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<meta name="robots" content="noindex">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<html>
+<head>
+  <meta name="viewport" content="width=device-width">
+  <link href="game_design.css" rel="stylesheet" />
+  <title>Gra</title>
+</head>
+
+<body>
+    <h1 id="tytul" class="center">Praca magisterska Paulina Osuch</h1>
+	<div id="preambula" >
+		<div id="intencyjny">
+			<h2 class="center">INFORMACJA DLA UCZESTNIKÓW BADANIA</h2>
+			<br>
+			Szanowni Państwo!
+			<br>
+
+Nazywam się Paulina Osuch. Jestem studentką 5 roku kognitywistyki w UAM w Poznaniu. Zwracam się do Państwa z prośbą o udział w badaniach,  potrzebnych do mojej pracy magisterskiej. Badanie składa się z gry, w którą zagrają Państwo z czterema innymi graczami oraz dwóch kwestionariuszy. Poproszę również Państwa o wypełnienie krótkiej metryczki demograficznej.
+<br>Najpierw na ekranie pojawi się metryczka demograficzna. Następnie zostaną połączeni Państwo kolejno z czterema graczami, z którymi zagrają Państwo w krótką grę. Następnie poproszę Państwa o wypełnienie dwóch krótkich kwestionariuszy.  Każda Państwa odpowiedź będzie dla mnie bardzo ważna. Proszę, abyście Państwo przez okres 6 miesięcy nie opisywali procedury badawczej innym osobom, które potencjalnie mogą zostać uczestnikami tego badania. W tym okresie sukces badań wymaga poufności. 
+<br>Udział w badaniach nie wiąże się z jakąkolwiek dającą się przewidzieć niedogodnością lub zagrożeniem. Przypuszczalnie badanie nie przyniesie Państwu jakichś określonych korzyści indywidualnych. Państwa udział w badaniach nie pociąga za sobą żadnych kosztów. Badania są w pełni anonimowe. Proszę tylko o podanie swoich niezbędnych danych demograficznych. Dołożę wszelkich starań, aby Państwa odpowiedzi i dane były właściwie zabezpieczone. Wszelkie dane, mogące dopomóc do ewentualnej identyfikacji konkretnej osoby zostaną zatarte lub zmienione. Po zebraniu danych nie będzie możliwa identyfikacja konkretnej osoby, wyniki analizowane będą wyłącznie jako element grupy. Będzie to zatem analiza statystyczna, a nie diagnostyczna.
+<br>Aby zachować zasadę anonimowości nie zbieram pisemnej zgody. Przystąpienie do badania jest równoczesne z wyrażeniem na nie świadomej zgody w opisanej powyżej formie. Państwa udział w badaniu jest dobrowolny i w każdym momencie (nawet po rozpoczęciu badania) można się z niego wycofać bez podawania powodu. Rezygnacja z gry czy też wypełnienia jakiegokolwiek kwestionariusza będzie oznaczała wycofanie się z badania. Także po zakończonym badaniu można poprosić o usunięcie z bazy Państwa wyników i danych.
+<br>Jeżeli macie Państwo jakiekolwiek pytania dotyczące Państwa roli w prowadzonym badaniu, chętnie na nie odpowiem zarówno przed  jak i w trakcie badania. Jeżeli jakaś informacja jest dla Państwa ważna dla podjęcia decyzji o udziale i nie otrzymacie potrzebnej informacji, można w takiej sytuacji odmówić udziału w badaniu.
+Ze względu na troskę o jakość badań, proszę o zachowanie tej instrukcji.
+<br>Wyniki będą prezentowane wyłącznie na poziomie danych grupowych, a dostęp do wyników surowych będę mieć ja i promotor mojej pracy, prof. Władysław J. Paluchowski (Instytut Psychologii, Uniwersytet im. Adama Mickiewicza, ul. Szamarzewskiego 89, 60 – 568 Poznań, tel.: (48 61) 829 23 50, e-mail: paluchja@amu.edu.pl). Jeżeli jesteście Państwo zainteresowani wynikami mojej pracy to proszę o kontakt: tel.: 781 977 404,                                        e-mail: paulina.marta.osuch@gmail.com
+<br>
+Dziękuję za współpracę!
+<br>
+<form id="questionnaire" method="post">
+	  <div id="metryka">
+		  <br>
+			Przed rozpoczęciem proszę o wypełnienie krótkiej ankiety demograficznej poniżej. Jest ona anonimowa. Zebrane dane posłużą mi do celów naukowych i będą upowszechniane jedynie w formie zbiorczych wyników. 
+		  <br>
+	  </div>
+
+		<div id="plec">
+		Płeć
+		<input type="radio" name="plec" value="kobieta"> Kobieta
+		<input type="radio" name="plec" value="mężczyzna"> Mężczyzna
+		</div>
+
+		<div id="wiek">
+		Wiek
+		<input type="text" name="wiek" value="">
+		</div>
+		
+		<div id="wyksztalcenie">
+		Wykształcenie
+		<select name="wyksztalcenie">
+			<option value="podstawowe" selected="">Podstawowe</option>
+			<option value="zawodowe">Zawodowe</option>
+			<option value="średnie">Średnie</option>
+			<option value="wyższe">Wyższe</option>
+		</select>
+		</div>
+		
+		<div id="zwiazek">
+		Czy jest Pani/Pan w związku (sformalizowanym lub niesformalizowanym) lub zakończyła go Pani/Pan w ciągu ostatniego miesiąca?
+		<input type="radio" name="czy_w_zwiazku" value="zwiazek_tak"> Tak
+		<input type="radio" name="czy_w_zwiazku" value="zwiazek_nie"> Nie
+		</div>
+		
+		<div id="malzenstwo">
+		Czy pozostaje/pozostawał(a) Pani/Pan w związku sformalizowanym (w małżeństwie)?:
+		<input type="radio" name="czy_malzenstwo" value="malzenstwo_tak"> Tak
+		<input type="radio" name="czy_malzenstwo" value="malzenstwo_nie"> Nie
+		</div>
+		
+		<div id="staz">
+		Proszę podać w miesiącach staż związku:
+		<input type="text" name="staz" value="">
+		</div>
+</form>
+
+</div>
+		<br>
+		<input type="checkbox" id="rules" value="Zgadzam się"> Przeczytałem/am i zgadzam się na udział w badaniu</input>
+		<h5 id="rules_confirmation_text"></h5>	
+		</div>
+	
+    <div id="container" class="center">
+	  <div id="wstep">
+	  <h3 id="preambula">Preambuła i zasady:</h3>
+Witamy w teleturnieju! W pierwszej rundzie zagrasz z graczem numer 1. Maksymalnie możesz wygrać 3000 wirtualnych zł, ale uwaga! Twoja wygrana zależy także od Twojego przeciwnika. Możesz „iść na całość” lub „podzielić się”. Nigdy nie wiesz, jak zachowa się Twój przeciwnik.
+<br> Jeśli zarówno Ty, jak i Twój przeciwnik „podzielicie się” – oboje otrzymujecie 25 zł. 
+<br>Jeśli obie strony „pójdą na całość” – tracicie 250 zł. 
+<br>Jeśli Ty „podzielisz się”, a Twój przeciwnik „pójdzie na całość” – Ty tracisz 500 zł, a przeciwnik zyskuje 500 zł. 
+<br>Jeśli Ty „pójdziesz na całość”, a Twój przeciwnik „podzieli się” – Ty zyskujesz 500 zł, a on traci 500 zł. 
+
+<br>Którą opcję wybierasz?(na ekranie pojawiają się dwa przyciski „idź na całość” oraz „podziel się”)
+	  <br>
+	  <br>
+	  Za chwilę rozegrasz cztery rundy z czterema różnymi graczami. W zależności od Twoich,
+	  jak i Twojego przeciwnika odpowiedzi będziesz mógł zebrać określoną kwotę pieniędzy. 
+	  Możecie ze sobą współpracować lub grać niezależnie. 
+	  Gotowy?
+	  <div id="rules_confirmation">
+		  Wybierz swój nick: <input type="text" name="Nick" id="username" value=""></input>
+		  <br>
+	  <h5 id="user_confirmation_text"></h5>
+	  </div>
+	  
+	  
+	  
+	  </div>
+	  
+	</div>
+	  
+	<div id="content" class="center">
+	  <div id="bot_window">
+	  <div id="bot_name"></div>
+	  <img src="#" id="bot_avatar" 	align="middle">
+	  </div>
+	    <h4 id="game_text"></h4>
+        <h3 id="question"></h3>
+        <div id="choices"></div>
+        <p><button id="submit" class="confirm_button">Zgadzam się</button></p>
+        <textarea rows="2" cols="110" id="results_text"></textarea>
+        <p id="score"></p>
+		<div id="quick_rules">
+			<h3> 
+				<div class="bigger_text">Skrót zasad.<br></div>
+				Z każdym z przeciwników zagrasz 6 rund podczas których starasz się zdobyć jak najwięcej pieniędzy z maksymalnych 3000zł.<br>
+				1. Jeżeli wybierzesz "Idź na całość" a:
+					<ul>
+					<li> Przeciwnik też wybierze "Idź na całość" to oboje stracicie 250zł
+					<li> Przeciwnik wybierze "Podziel się" to ty zyskasz 500zł, a przeciwnik straci 500zł
+					</ul>
+				2. Jeżeli wybierzesz "Podziel się" a:
+					<ul>
+					<li> Przeciwnik też wybierze "Podziel się" to oboje zyskacie 25zł
+					<li> Przeciwnik wybierze "Idź na całość" to ty stracisz 500zł, a przeciwnik zyska 500zł
+			</h3>
+		</div>
+		<div class="loader" id="loading_page">Ładowanie</div>
+	</div>
+<!--<iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"> </iframe>	-->  
+<script src="js/quiz_test.js"></script>
+</body>
+</html>
